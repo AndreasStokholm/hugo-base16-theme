@@ -36,7 +36,7 @@
 .base0e { color: var(--base0e); }
 .base0f { color: var(--base0f); }
 
-@custom-media --breakpoint-md (max-width: 52em);
+@custom-media --breakpoint-md (max-width: 35em);
 
 /* General Page Layout */
 
@@ -50,7 +50,7 @@ body {
 }
 
 .container {
-  max-width: 52em;
+  max-width: 35em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -71,10 +71,8 @@ div.clearfix {
 
 article.single section,
 .article-list article {
-  background-color: var(--base07);
-  color: var(--base00);
-  padding-left: 8rem;
-  padding-right: 8rem;
+  background-color: var(--base00);
+  color: var(--base07);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -380,8 +378,8 @@ article.single p code {
 
 article.single figure, article.single div.highlight {
   box-sizing: border-box;
-  max-width: 52rem;
-  width: 52rem;
+  max-width: 35rem;
+  width: 35rem;
   margin-left: -8rem;
   margin-right: -8rem;
   margin-bottom: 1rem;
